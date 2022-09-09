@@ -1,0 +1,10 @@
+string="Hello Code Family";
+newstr="";
+for i in range (0,len(string)):
+    if string[i].islower():
+        newstr+=string[i].upper();
+    elif string[i].isupper():
+        newstr+=string[i].lower();
+    else:
+        newstr+=string[i];
+print(newstr);
